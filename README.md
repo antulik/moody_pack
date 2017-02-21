@@ -14,14 +14,19 @@ gem 'moody_pack', git: 'https://github.com/antulik/moody_pack', branch: 'master'
 
 ## Development of this gem
 
+First clone this gem
 
-### Config
+```bash
+git clone ...
+```
 
-This will tell bundler that `moody_pack` gem could be found locally for any rails app running locally (see above). You need to do it once.
+Second tell bundler that `moody_pack` gem could be found locally for any rails app running locally (see above). You need to do it once.
 
 ```bash
 bundle config local.moody_pack PATH_TO_LOCAL_FOLDER_WITH_GEM
 ```
+
+Now you can run Turbo or a sample rails app included in this gem.
 
 ### Run test server
 
