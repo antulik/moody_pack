@@ -3,7 +3,7 @@
 ## How to use this gem in another project
 
 ```ruby
-gem 'moody_pack', git: 'PUBLISHED GIT REPO', branch: 'master'
+gem 'moody_pack', git: 'https://github.com/antulik/moody_pack', branch: 'master'
 ```
 
 ```css
@@ -17,7 +17,7 @@ gem 'moody_pack', git: 'PUBLISHED GIT REPO', branch: 'master'
 
 ### Config
 
-This will tell bundler that `moody_pack` gem could be found locally. You need to do it once.
+This will tell bundler that `moody_pack` gem could be found locally for any rails app running locally (see above). You need to do it once.
 
 ```bash
 bundle config local.moody_pack PATH_TO_LOCAL_FOLDER_WITH_GEM
