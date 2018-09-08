@@ -3,7 +3,6 @@
 ## How to use this gem in another project
 
 ```ruby
-
 gem 'moody_pack', git: 'https://github.com/antulik/moody_pack', branch: 'master'
 ```
 
